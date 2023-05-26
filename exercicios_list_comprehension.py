@@ -47,5 +47,5 @@ print(maior_q_5)
 
 # 9 -Dada uma lista de números, crie uma nova lista com o dobro de cada número, mas apenas se o número for ímpar
 
-numeros_dobro = [n * n for n in range(10) if not n % 2 == 0]
+numeros_dobro = [n * 2 for n in range(10) if not n % 2 == 0]
 print(numeros_dobro)
